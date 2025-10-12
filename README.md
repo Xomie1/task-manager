@@ -27,5 +27,30 @@ A clean full-stack task management application built with **React**, **Node.js**
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/task-manager.git
+   git clone https://github.com/<xomie1>/task-manager.git
    cd task-manager
+
+2. Start all services:
+   docker-compose up --build
+
+3. Access the application:
+   - Frontend: http://localhost:3000
+   - Backend API: http://localhost:5001
+   - MongoDB: localhost:27017
+
+4. Stop all services:
+   ```bash
+   docker-compose down
+## Development Notes
+   - Used Docker for a consistent, isolated environment
+   - Implemented basic CRUD operations without authentication
+   - Focused on core functionality over design polish
+   - Added simple error handling for stability
+
+## Time Spent
+Total: ~1 hour 30 minutes
+   - Backend API: 30 minutes
+   - Frontend integration: 30 minutes
+   - Docker setup and testing: 30 minutes
+
+
