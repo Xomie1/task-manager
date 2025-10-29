@@ -1,56 +1,77 @@
-# Task Manager App
+Task Manager App
 
-A clean full-stack task management application built with **React**, **Node.js**, **MongoDB**, and **Docker**.
+A clean full-stack task management application built with React, Node.js, MongoDB, and Docker.
 
-## Features
+Features
 
-- Create tasks with a title and description  
-- View all tasks in a simple, responsive interface  
-- Mark tasks as done or undone  
-- Delete tasks instantly  
-- Fully containerized for easy deployment  
+Create tasks with a title and description
 
-## Tech Stack
+View all tasks in a simple, responsive interface
 
-- **Frontend:** React 18  
-- **Backend:** Node.js + Express  
-- **Database:** MongoDB  
-- **Containerization:** Docker & Docker Compose  
+Mark tasks as done or undone
 
-## Setup Instructions
+Delete tasks instantly
 
-### Prerequisites
-- Docker and Docker Compose installed  
-- Node.js 18+ (only required for local development)
+Fully containerized for easy deployment
 
-### Option 1: Run with Docker (Recommended)
+Tech Stack
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<xomie1>/task-manager.git
-   cd task-manager
+Frontend: React 18
 
-2. Start all services:
-   docker-compose up --build
+Backend: Node.js + Express
 
-3. Access the application:
-   - Frontend: http://localhost:3000
-   - Backend API: http://localhost:5001
-   - MongoDB: localhost:27017
+Database: MongoDB
 
-4. Stop all services:
-   ```bash
-   docker-compose down
-## Development Notes
-   - Used Docker for a consistent, isolated environment
-   - Implemented basic CRUD operations without authentication
-   - Focused on core functionality over design polish
-   - Added simple error handling for stability
+Containerization: Docker & Docker Compose
 
-## Time Spent
+Setup Instructions
+Prerequisites
+
+Docker and Docker Compose installed
+
+Node.js 18+ (only required for local development)
+
+Option 1: Run with Docker (Recommended)
+
+Clone the repository:
+
+git clone https://github.com/<your-username>/task-manager.git
+cd task-manager
+
+
+Start all services:
+
+docker-compose up --build
+
+
+Access the application:
+
+Frontend: http://localhost:3000
+
+Backend API: http://localhost:5001
+
+MongoDB: localhost:27017
+
+To stop all services:
+
+docker-compose down
+
+Development Notes
+
+Used Docker to simplify environment setup
+
+Implemented essential CRUD operations (no authentication)
+
+Focused on functionality over design polish
+
+Added lightweight error handling for stability
+
+Time Spent
+
 Total: ~1 hour 30 minutes
-   - Backend API: 30 minutes
-   - Frontend integration: 30 minutes
-   - Docker setup and testing: 30 minutes
 
+Backend API: 30 minutes
 
+Frontend integration: 30 minutes
+
+Docker setup and testing: 30 minutes
